@@ -1,19 +1,20 @@
 1. What does thread of execution means in JavaScript?
-
+Ans. When we want to execute the peace of code . Javascript engine take the code and execute the code line buy line is thread of execution means in Javascript.
 2. Where the JavaScript code gets executed?
-
+Ans. Javascript Engine
 3. What does context means in Global Execution Context?
-
+Ans. It means that the environment in which we are executing the code.
 4. When do you create a global execution context.
-
+Ans. Whenever we Executive the code the javascript engine will create a Globle Execution context for us.
 5. Execution context consists of what all things?
-
+Ans. Execution context contains a section for storing data. It is also called memory.
 6. What are the different types of execution context?
-
+Ans . 1.Function Execution Context
+      2.Globle Execution Context
 7. When global and function execution context gets created?
-
+Ans. 1. Globle Execution Context gets created whenever we run any code in JavaScript for the first time. Function Execution Context gets created whenever we execute any function.
 8. Function execution gets created during function execution or while declaring a function.
-
+Ans. Function Executon gets created during function execution and gets deleted when it returns a value.
 
 9. Create a execution context diagram of the following code on your notebook. Take a screenshot/photo and store it in the folder named `img`. Use `![](./img/image-name.png)` to display it here.
 
@@ -31,7 +32,7 @@ var userMsg = sayHello(user);
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
+![](./img/hw3.jpeg)
 
 
 
@@ -49,7 +50,7 @@ var percentageProfit = getPercentage(400, 200);
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
+![](./img/hw2.jpeg)
 
 
 
@@ -70,4 +71,4 @@ var whoAmIAgain = customeMessage(12);
 
 <!-- Put your image here -->
 
-![](./img/image-name.jpg)
+![](./img/hw.jpeg)
