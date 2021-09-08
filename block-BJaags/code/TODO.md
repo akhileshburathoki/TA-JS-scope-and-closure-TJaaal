@@ -54,16 +54,3 @@ function counter(){
   return increment()
 }
 ```
-
-Create the execution context diagram of the following code line by line.
-
-```js
-counter();
-let counter = function () {
-  let count = 0;
-  function increment() {
-    return count++;
-  }
-  return increment();
-};
-```
